@@ -1,10 +1,10 @@
-import Header from "./Header.jsx";
+import Header from "./header.jsx";
 
 function App() {
   return (
-    <>
-      <Header></Header>
-    </>
+    <div className="headerContainer">
+      <Header />
+    </div>
   );
 }
 

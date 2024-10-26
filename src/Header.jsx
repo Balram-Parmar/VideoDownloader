@@ -1,16 +1,27 @@
+import "./header.css";
 function Header() {
   return (
-    <div className="header">
-      <header>
-        <h1>This heading 1</h1>
-        <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>More Tools</li>
-          <li>Help</li>
-        </ul>
-      </header>
-    </div>
+    <header className="header">
+      <div className="logo">
+        <a className="anchor" href="#">
+          <img className="image" src="/logo.png" alt="logo" />
+        </a>
+      </div>
+
+      <ul className="listOfPages">
+        <li>
+          <a href="#">test 1</a>
+        </li>
+
+        <li>
+          <a href="#">test 2</a>
+        </li>
+
+        <li>
+          <a href="#">test 3</a>
+        </li>
+      </ul>
+    </header>
   );
 }
 
