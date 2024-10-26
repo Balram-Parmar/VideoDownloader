@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -22,9 +24,10 @@
 .listOfPages li {
   padding: 0;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "DynaPuff", sans-serif;
   font-size: 1.1em;
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: 0.15em; /* Add space between alphabets */
 }
 
 .listOfPages a {
@@ -76,4 +79,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.listOfPages li a .icon {
+  width: auto; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  margin-right: 0.5em; /* Space between the icon and text */
+  vertical-align: middle; /* Align the icon vertically with the text */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.listOfPages li a:hover .icon {
+  transform: scale(1.2); /* Slightly enlarge the icon on hover */
 }

@@ -10,15 +10,22 @@ function Header() {
 
       <ul className="listOfPages">
         <li>
-          <a href="#">test 1</a>
+          <a href="#">
+            <img src="/insta.png" alt="Instagram" className="icon" /> Instagram
+          </a>
         </li>
 
         <li>
-          <a href="#">test 2</a>
+          <a href="#">
+            <img src="youtube.png" alt="YouTube" className="icon" />{" "}
+            YouTube
+          </a>
         </li>
 
         <li>
-          <a href="#">test 3</a>
+          <a href="#">
+            <img src="tik-tok.png" alt="TikTok" className="icon" /> TikTok
+          </a>
         </li>
       </ul>
     </header>
